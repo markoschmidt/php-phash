@@ -6,7 +6,7 @@
         "phash",
         "image hashing algorithm"
     ],
-    "homepage": "https://github.com/bdelespierre/php-phash",
+    "homepage": "https://github.com/markoschmidt/php-phash",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -14,15 +14,20 @@
             "name": "Benjamin Delespierre",
             "email": "benjamin.delespierre@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Marko Schmidt",
+            "email": "marko.schmidt@mediasignal.fi",
+            "role": "Developer"
         }
     ],
     "bin": [
         "bin/phash"
     ],
     "require": {
-        "php": "~7.3",
+        "php": "~8.1",
         "intervention/image": "^2.5",
-        "symfony/console": "^5.1"
+        "symfony/console": "^6.3"
     },
     "suggest": {
         "ext-gd": "to use GD library based image processing.",
